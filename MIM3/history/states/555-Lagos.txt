@@ -1,0 +1,17 @@
+
+state={
+	id=555
+	name="STATE_555" #Kuril Islands
+	manpower = 1
+	
+	state_category = tiny_island
+
+	history={
+	}
+
+	provinces={
+		1399 1515 13037 
+	}
+
+	local_supplies=0.0 
+}
