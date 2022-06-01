@@ -8337,7 +8337,7 @@ political_actions = {
 		}
 
 		available = {
-				date > 1937.4.1
+			date > 1937.4.1
 		}
 
 		cost = 0
@@ -8348,6 +8348,42 @@ political_actions = {
 		complete_effect = {
 			set_technology = {
 				fighter2 = 1
+			}
+		}
+
+
+	}
+	
+	ENG_get_factories = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+		visible = {
+			tag = ENG
+		}
+
+		available = {
+			date > 1935.6.1
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		complete_effect = {
+			add_offsite_building = 
+			{
+				type = arms_factory
+				level = 10
+			}
+			add_offsite_building = 
+			{
+				type = industrial_complex
+				level = 50
 			}
 		}
 
