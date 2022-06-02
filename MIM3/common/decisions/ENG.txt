@@ -8366,7 +8366,7 @@ political_actions = {
 		}
 
 		available = {
-			date > 1935.6.1
+			date > 1940.6.1
 		}
 
 		cost = 0
