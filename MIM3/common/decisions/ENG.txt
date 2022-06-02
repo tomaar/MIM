@@ -8375,15 +8375,110 @@ political_actions = {
 
 
 		complete_effect = {
-			add_offsite_building = 
-			{
-				type = arms_factory
-				level = 10
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					free_building_slots = {
+						building = arms_factory
+						size > 6
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
 			}
-			add_offsite_building = 
-			{
-				type = industrial_complex
-				level = 50
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					free_building_slots = {
+						building = arms_factory
+						size > 6
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					free_building_slots = {
+						building = arms_factory
+						size > 6
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					free_building_slots = {
+						building = arms_factory
+						size > 6
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					free_building_slots = {
+						building = arms_factory
+						size > 6
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
 			}
 		}
 
