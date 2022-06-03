@@ -4716,7 +4716,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			CAN = {
+			SAF = {
    				 modify_tech_sharing_bonus = {
         			id = commonwealth_research
         			bonus = 0.05  
